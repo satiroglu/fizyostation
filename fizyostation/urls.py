@@ -17,6 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+
+# ERP; header, title changes.
+admin.site.site_header = 'Fizyostation ERP'
+admin.site.site_title = 'Fizyostation ERP'
+admin.site.index_title = 'Hoş geldiniz'
+
+# Remove view site url
+admin.site.site_url = ''
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]

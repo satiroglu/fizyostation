@@ -6,8 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
-# klasör
-deployment/
+# Project settings
+fizyostation/settings
+fizyostation/wsgi.py
 
 # Distribution / packaging
 .Python
